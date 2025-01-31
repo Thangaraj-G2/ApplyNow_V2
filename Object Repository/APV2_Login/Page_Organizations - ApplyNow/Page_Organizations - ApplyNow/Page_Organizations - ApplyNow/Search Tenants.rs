@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Search Tenants</name>
+   <tag></tag>
+   <elementGuidId>1a01a9ee-9c12-4d6d-934c-a7914ccf9b3c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*/text()[normalize-space(.)='Tenants']/parent::*</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>a.btn.btn-flat-dark.waves-effect</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>f1eabd8f-4d4b-4822-85a3-ead202425f50</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn btn-flat-dark waves-effect</value>
+      <webElementGuid>d47ab6ba-3733-4966-96af-3eb945d7f7f5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/Tenants/Index?orgName=Kat_Org1&amp;orgId=02C75B4A-8E29-4552-B290-9F73CC116846</value>
+      <webElementGuid>466950a8-fae8-4072-8568-95100286fd40</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> Tenants</value>
+      <webElementGuid>463c4b1f-3040-4258-bfbc-570fd66c5782</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;org_02C75B4A-8E29-4552-B290-9F73CC116846&quot;)/div[@class=&quot;card shadow-none bg-transparent&quot;]/div[@class=&quot;card-footer text-muted p-3 pt-0 border-0&quot;]/div[@class=&quot;float-end&quot;]/a[@class=&quot;btn btn-flat-dark waves-effect&quot;]</value>
+      <webElementGuid>0a44922f-b49e-4a2c-b713-2cd9189df1ea</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='org_02C75B4A-8E29-4552-B290-9F73CC116846']/div/div/div/a</value>
+      <webElementGuid>209c01de-253e-48bd-bcc5-1ae5d43e6778</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Tenants')]</value>
+      <webElementGuid>80b4313a-46f3-448e-8cd1-9bcd7d3cff76</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Delete'])[1]/following::a[1]</value>
+      <webElementGuid>ec500475-9135-4ef7-9e4b-4afa4261d259</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='desc'])[1]/following::a[1]</value>
+      <webElementGuid>9e0468c9-d0a9-4c1e-912d-2e6de6a2e730</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Modify'])[1]/preceding::a[1]</value>
+      <webElementGuid>5f4815fd-b268-4d2b-8a8d-aafb1eaa88ac</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Delete Organization'])[1]/preceding::a[1]</value>
+      <webElementGuid>f8cb1ed6-747d-4627-b61d-a66a514d588c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Tenants']/parent::*</value>
+      <webElementGuid>118fc642-ff2b-44c7-90d5-7b3cb2fb0fc3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>(//a[contains(@href, '/Tenants/Index?orgName=Kat_Org1&amp;orgId=02C75B4A-8E29-4552-B290-9F73CC116846')])[2]</value>
+      <webElementGuid>e9c019c3-beea-4998-9130-b5e4424aef2d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div/div/a</value>
+      <webElementGuid>b2fab224-d43d-4640-a344-946e931fe6ea</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/Tenants/Index?orgName=Kat_Org1&amp;orgId=02C75B4A-8E29-4552-B290-9F73CC116846' and (text() = ' Tenants' or . = ' Tenants')]</value>
+      <webElementGuid>246f5e34-9e0b-4d72-961c-777375ced42f</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

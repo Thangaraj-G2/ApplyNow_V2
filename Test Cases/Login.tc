@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Open the browser, load the URL and login to the application</description>
+   <name>Login</name>
+   <tag>Login</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>9d61f80b-f681-4e16-ac57-7c441f8a9172</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>To logout from the application</description>
+   <name>Logout</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>2c9b55ae-4dc4-4e8c-80f3-9caa7a047acd</testCaseGuid>
+</TestCaseEntity>

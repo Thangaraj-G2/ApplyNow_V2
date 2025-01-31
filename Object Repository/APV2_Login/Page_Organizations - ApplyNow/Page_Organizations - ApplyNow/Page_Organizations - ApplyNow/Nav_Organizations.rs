@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Nav_Organizations</name>
+   <tag></tag>
+   <elementGuidId>2f20ffd2-bcd0-4373-87ef-06728479a0f1</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='hdrSettings']/div/div/div/div/ol/li[2]/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>li.breadcrumb-item.active > span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>f57e91ad-784f-452b-94db-1f8905559b37</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-i18n</name>
+      <type>Main</type>
+      <value>breadcrumbOrganizations</value>
+      <webElementGuid>c49be9aa-3908-4c05-be80-600c164d2558</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Organizations</value>
+      <webElementGuid>ee10dfe0-98dc-432b-8d4d-71154dc288a4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;hdrSettings&quot;)/div[@class=&quot;content-header-left col-md-12 col-12 mb-4&quot;]/div[@class=&quot;row breadcrumbs-top&quot;]/div[@class=&quot;col-9 my-auto&quot;]/div[@class=&quot;breadcrumb-wrapper&quot;]/ol[@class=&quot;breadcrumb&quot;]/li[@class=&quot;breadcrumb-item active&quot;]/span[1]</value>
+      <webElementGuid>9798d810-478f-48ee-9d81-5b736ed0b9c7</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='hdrSettings']/div/div/div/div/ol/li[2]/span</value>
+      <webElementGuid>9e9fe528-be6c-4cec-8aa6-6909c1252f86</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Home'])[2]/following::span[1]</value>
+      <webElementGuid>da47dede-acff-4b8e-8c78-6d3bc69ce219</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Organizations'])[2]/following::span[1]</value>
+      <webElementGuid>0f2b97d3-43f8-4899-ad38-27b14b396ed8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='New Organization'])[1]/preceding::span[1]</value>
+      <webElementGuid>72b54a7e-d4c6-4f8a-829b-9ec3d8cf1c89</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Show'])[1]/preceding::span[1]</value>
+      <webElementGuid>1ba0f3aa-1fc1-4e40-92de-d6f9763b0a04</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[2]/span</value>
+      <webElementGuid>acf77ba4-22b1-4922-9ab1-dfce3be3e212</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Organizations' or . = 'Organizations')]</value>
+      <webElementGuid>42160e58-8b47-4a5c-b653-acb18d5b0f5e</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

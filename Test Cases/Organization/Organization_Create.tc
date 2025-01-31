@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>This test case is to create an organization and delete it</description>
+   <name>Organization_Create</name>
+   <tag>Organization</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>83e7f7a0-7fa4-4f8c-8c7c-ab6f814f868a</testCaseGuid>
+</TestCaseEntity>
