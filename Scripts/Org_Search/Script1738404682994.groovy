@@ -17,45 +17,6 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Login'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.click(findTestObject('APV2_Login/Page_Organizations - ApplyNow/Page_Organizations - ApplyNow/Page_Organizations - ApplyNow/New Organization'))
-
-WebUI.setText(findTestObject('APV2_Login/Page_Organizations - ApplyNow/Page_Organizations - ApplyNow/Page_Organizations - ApplyNow/Display Name'), 
-    'Kat_Org1')
-
-WebUI.setText(findTestObject('APV2_Login/Page_Organizations - ApplyNow/Page_Organizations - ApplyNow/Page_Organizations - ApplyNow/Description'), 
-    'desc')
-
-WebUI.click(findTestObject('APV2_Login/Page_Organizations - ApplyNow/Page_Organizations - ApplyNow/Page_Organizations - ApplyNow/Next'))
-
-WebUI.setText(findTestObject('APV2_Login/Page_Organizations - ApplyNow/Page_Organizations - ApplyNow/Page_Organizations - ApplyNow/Address'), 
-    'Downtown 4th')
-
-WebUI.setText(findTestObject('APV2_Login/Page_Organizations - ApplyNow/Page_Organizations - ApplyNow/Page_Organizations - ApplyNow/Page_Organizations - ApplyNow/City'), 
-    'Torento')
-
-WebUI.setText(findTestObject('APV2_Login/Page_Organizations - ApplyNow/Page_Organizations - ApplyNow/Page_Organizations - ApplyNow/Province State'), 
-    'Ontario')
-
-WebUI.setText(findTestObject('APV2_Login/Page_Organizations - ApplyNow/Page_Organizations - ApplyNow/Page_Organizations - ApplyNow/ZipPostal Code'), 
-    '261525')
-
-WebUI.setText(findTestObject('APV2_Login/Page_Organizations - ApplyNow/Page_Organizations - ApplyNow/Page_Organizations - ApplyNow/Country'), 
-    'Canada')
-
-WebUI.setText(findTestObject('APV2_Login/Page_Organizations - ApplyNow/Page_Organizations - ApplyNow/Page_Organizations - ApplyNow/Email ID'), 
-    'testuser@testmaill.com')
-
-WebUI.setText(findTestObject('APV2_Login/Page_Organizations - ApplyNow/Page_Organizations - ApplyNow/Page_Organizations - ApplyNow/Phone Number'), 
-    '6504059055')
-
-WebUI.delay(1)
-
-WebUI.click(findTestObject('APV2_Login/Page_Organizations - ApplyNow/Page_Organizations - ApplyNow/Page_Organizations - ApplyNow/Create Organization'))
-
-WebUI.delay(1)
-
 WebUI.setText(findTestObject('APV2_Login/Page_Organizations - ApplyNow/Page_Organizations - ApplyNow/Page_Organizations - ApplyNow/Search Organization'), 
     'Kat_Org1')
 
@@ -73,7 +34,5 @@ WebUI.verifyElementPresent(findTestObject('APV2_Login/Page_Organizations - Apply
 WebUI.verifyElementPresent(findTestObject('APV2_Login/Page_Organizations - ApplyNow/Page_Organizations - ApplyNow/Page_Organizations - ApplyNow/Modify'), 
     0)
 
-WebUI.callTestCase(findTestCase('Logout'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.acceptAlert()
+WebUI.takeScreenshot()
 

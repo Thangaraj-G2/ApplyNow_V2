@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Search Delete</name>
+   <name>Click_Delete</name>
    <tag></tag>
-   <elementGuidId>689d259f-bc45-4cf3-bed9-c525aeca6bcd</elementGuidId>
+   <elementGuidId>252971be-b794-4576-a093-a9a732e1aa62</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//mark[contains(text(),'Kat_Org1')]/following::button[1]</value>
+         <value>//*[@id=&quot;btnDeleteConfirm&quot;]</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>#btnDeleteConfirm</value>
+         <value>#btnDeleteConfirm > span</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,24 +22,16 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>button</value>
-      <webElementGuid>5d0a8c9c-3cc5-43e9-9558-d50b96dd8e43</webElementGuid>
+      <value>span</value>
+      <webElementGuid>5bdb9ecc-e74f-4979-88b9-6b2d02986579</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>class</name>
+      <name>data-i18n</name>
       <type>Main</type>
-      <value>btn w-sm waves-effect waves-float btn-danger</value>
-      <webElementGuid>1b8e8715-b687-427a-a0ee-d320af4d857a</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>id</name>
-      <type>Main</type>
-      <value>btnDeleteConfirm</value>
-      <webElementGuid>9ae3ac14-a840-4bad-b2be-891210381875</webElementGuid>
+      <value>btnDeleteDialog</value>
+      <webElementGuid>5798eacc-0786-40c4-a174-fe419bcdca31</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -47,70 +39,70 @@
       <name>text</name>
       <type>Main</type>
       <value>Delete</value>
-      <webElementGuid>21be536b-2711-4008-b8f7-f266b665329c</webElementGuid>
+      <webElementGuid>fbd7f488-4d3c-4ea6-8eab-5661bd0fbc6c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;btnDeleteConfirm&quot;)</value>
-      <webElementGuid>b3e57c46-3dc1-44ac-b0e8-f5c84020558a</webElementGuid>
+      <value>id(&quot;btnDeleteConfirm&quot;)/span[1]</value>
+      <webElementGuid>8b42e7df-b96a-4582-8664-7aee25b7d883</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:attributes</name>
-      <type>Main</type>
-      <value>//mark[contains(text(),'Org_One')]/following::button[1]</value>
-      <webElementGuid>c7046b53-64e3-473e-bcab-447ef50289d5</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='popupDeleteOrganization']/div/div/div[3]/button[2]</value>
-      <webElementGuid>4ddc741e-d925-4c84-84cf-5ce88158eb9b</webElementGuid>
+      <value>//*[@id=&quot;btnDeleteConfirm&quot;]</value>
+      <webElementGuid>5addffae-0010-478e-ab67-23b5977feeb9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Close'])[1]/following::button[1]</value>
-      <webElementGuid>6bfe5fe4-b0fa-4027-b2d9-8a3ebf48166c</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Close'])[1]/following::span[1]</value>
+      <webElementGuid>c3d84243-2e31-48f3-ad69-b18a5243cd21</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Delete Organization'])[1]/following::button[3]</value>
-      <webElementGuid>aa11626d-1741-48df-b242-9771f3c59a5c</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Delete Organization'])[1]/following::span[1]</value>
+      <webElementGuid>0ab468b9-aead-416e-a512-06daf2ba0b38</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='New Organization'])[2]/preceding::button[1]</value>
-      <webElementGuid>6e80540d-7c5b-45d1-8f9d-47cd4c180566</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='New Organization'])[2]/preceding::span[1]</value>
+      <webElementGuid>6ccba473-cd2f-41f6-b8b9-7b06fcb8c42b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Organization'])[1]/preceding::span[1]</value>
+      <webElementGuid>bc738b54-de63-46b8-bf6a-7e57842793a7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[3]/button[2]</value>
-      <webElementGuid>6d2560c2-4772-4e8e-af1a-e51617a89930</webElementGuid>
+      <value>//button[2]/span</value>
+      <webElementGuid>fe32575b-7d6b-4ab5-a66c-edcc75e27ed5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//button[@id = 'btnDeleteConfirm' and (text() = 'Delete' or . = 'Delete')]</value>
-      <webElementGuid>25c03512-d40f-4b62-b989-95aa8e68affc</webElementGuid>
+      <value>//span[(text() = 'Delete' or . = 'Delete')]</value>
+      <webElementGuid>b008a05e-8276-441d-a310-6a6a4be24b10</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

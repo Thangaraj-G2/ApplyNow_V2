@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Create Organization</name>
+   <name>Delete_Close</name>
    <tag></tag>
-   <elementGuidId>519b19b9-4ef6-4871-9097-4e73a4a262a2</elementGuidId>
+   <elementGuidId>fb430d1e-7fc1-44ce-83d4-7c253401c488</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//button[@id='btnSaveOrg']</value>
+         <value>(//button[@type='button'])[3]</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>#btnSaveOrg</value>
+         <value>button.btn.w-sm.btn-flat-dark.waves-effect.waves-float</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -23,31 +23,31 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>048fb4d4-0295-492d-b53b-f7d61755f5e7</webElementGuid>
+      <webElementGuid>4aea9780-e957-4dd6-b53e-2ff6f13d729c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>btn w-sm waves-effect waves-float btn-primary btn-sm</value>
-      <webElementGuid>c29d8d2e-a87e-488e-ab8c-ed4967cf9523</webElementGuid>
+      <value>btn w-sm btn-flat-dark waves-effect waves-float</value>
+      <webElementGuid>9d0ae497-b45f-4644-a595-3e2163c5eade</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-bs-dismiss</name>
+      <type>Main</type>
+      <value>modal</value>
+      <webElementGuid>bd841104-7dd5-47ce-bea8-78ca54e31ded</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>data-i18n</name>
       <type>Main</type>
-      <value>btnCreateOrganization</value>
-      <webElementGuid>c09c8a29-b428-4a9b-9ece-a74687532617</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>id</name>
-      <type>Main</type>
-      <value>btnSaveOrg</value>
-      <webElementGuid>6efd021b-aac2-41ec-bb9a-001a85638618</webElementGuid>
+      <value>btnClose</value>
+      <webElementGuid>d8313d9c-aef6-4303-8bbc-9ff53330b0ae</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -55,94 +55,94 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>2f16f48e-719c-4a37-ba72-63917cb05668</webElementGuid>
+      <webElementGuid>fc11bd8d-c132-401f-b937-be5e74c0cc77</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Create Organization</value>
-      <webElementGuid>d8041c53-51a7-405a-8ce0-8a305b2a0810</webElementGuid>
+      <value>Close</value>
+      <webElementGuid>03a2ae98-b8ac-4ce4-80ab-03e3ba180b84</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;btnSaveOrg&quot;)</value>
-      <webElementGuid>57cfd80c-3a02-48f4-a2b0-475652f8cf22</webElementGuid>
+      <value>id(&quot;popupDeleteOrganization&quot;)/div[@class=&quot;modal-dialog modal-dialog-scrollable modal-dialog-centered&quot;]/div[@class=&quot;modal-content&quot;]/div[@class=&quot;modal-footer&quot;]/button[@class=&quot;btn w-sm btn-flat-dark waves-effect waves-float&quot;]</value>
+      <webElementGuid>1f44804e-5491-4a27-a49a-c5f4af606e34</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//button[@id='btnSaveOrg']</value>
-      <webElementGuid>62d07f61-1cc6-4fba-a4dd-d6ea7417a4ef</webElementGuid>
+      <value>(//button[@type='button'])[3]</value>
+      <webElementGuid>f88c59db-f28f-4e3d-9b18-ffa0a7770b48</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='orgOffcanvas']/div[3]/button[4]</value>
-      <webElementGuid>756b30e2-e7d3-4a57-86c6-d09c098a1d2b</webElementGuid>
+      <value>//div[@id='popupDeleteOrganization']/div/div/div[3]/button</value>
+      <webElementGuid>864d54ae-69f3-4a48-a11d-d0063b5e1248</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Previous'])[1]/following::button[1]</value>
-      <webElementGuid>a06b0c7a-6229-4c72-8e2c-23cf3a1972f1</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Delete Organization'])[1]/following::button[2]</value>
+      <webElementGuid>0ec69a6f-7d4d-45d0-8411-99677bcb52d5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Next'])[1]/following::button[2]</value>
-      <webElementGuid>c9f45d4f-b4dd-46bc-84aa-28e07bbdde9b</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Modify'])[2]/following::button[2]</value>
+      <webElementGuid>d5cd8c7c-eebe-418f-acef-26e7208690ee</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Website powered by'])[1]/preceding::button[1]</value>
-      <webElementGuid>f024fb33-b960-46af-a6b6-0212a93c0500</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Delete'])[3]/preceding::button[1]</value>
+      <webElementGuid>cd2b6d35-5c89-4172-8c27-d1006a69a662</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='CommonGoals Software'])[1]/preceding::button[1]</value>
-      <webElementGuid>b9ec6438-1dd4-4e9b-b2b2-fc732a82829f</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='New Organization'])[2]/preceding::button[2]</value>
+      <webElementGuid>de7c878f-3809-4d45-bd39-9df138968df5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Create Organization']/parent::*</value>
-      <webElementGuid>20004027-6c87-40bb-a355-8bf8bc4259f3</webElementGuid>
+      <value>//*/text()[normalize-space(.)='Close']/parent::*</value>
+      <webElementGuid>22ec4dd8-414c-4df7-84b8-6d4ab0dd7e53</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//button[4]</value>
-      <webElementGuid>1a0a6518-4613-4a96-8dfb-74d861f25eef</webElementGuid>
+      <value>//div[3]/button</value>
+      <webElementGuid>8f83af07-cc0b-4fd5-bf79-32a170246f36</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//button[@id = 'btnSaveOrg' and @type = 'button' and (text() = 'Create Organization' or . = 'Create Organization')]</value>
-      <webElementGuid>265de698-8647-4bc1-b10f-baecd2754eba</webElementGuid>
+      <value>//button[@type = 'button' and (text() = 'Close' or . = 'Close')]</value>
+      <webElementGuid>97cb9b45-6e97-4233-b8f7-0a0f993e7ab5</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
